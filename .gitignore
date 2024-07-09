@@ -1,0 +1,43 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Scala
+target/
+lib_managed/
+project/target/
+project/project/
+.history/
+.bloop/
+
+# SBT
+.cache/
+.target/
+
+# Eclipse
+.classpath
+.project/
+.settings/
+
+# Metals (VS Code)
+project/metals.sbt
+.metals/
+.bsp/
+.vscode/
+.metals.sbt
+.metals.sbt.json
+.scalafmt.conf
+
+# Logs and other generated files
+logs/
+log/
+*.log
+*.swp
+*.DS_Store
+
+# Dependency directories
+ivy2/
+~/.ivy2/
+~/.sbt/
